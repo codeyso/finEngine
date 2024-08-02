@@ -49,7 +49,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dtk9I-x4W6v0APe1FHIE-2" value="命令执行结束" style="label;fontStyle=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="574" width="120" height="26" as="geometry" />
+          <mxGeometry x="190" y="574" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Dtk9I-x4W6v0APe1FHIE-3" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;原理：在对PriorityQueue队列里的值，使用comparator进行比较排序时，会根据comparator比较器property值调用队列里对象的函数，此时会使用_bytecodes的byte数组构造对象，触发命令执行。&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="430" width="387.5" height="100" as="geometry" />
