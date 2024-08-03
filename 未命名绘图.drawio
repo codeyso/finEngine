@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="10">
   <diagram name="CommonsBeanutils1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1150" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="_2UcLu2fhHH_CYzqvIDp-69" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 200%;&quot;&gt;&lt;b style=&quot;text-align: left;&quot;&gt;org.apache.commons.beanutils.&lt;/b&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;PropertyUtilsBean&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;PropertyUtils.getProperty(TemplatesImpl, &quot;outputProperties&quot;)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;PropertyUtilsBean.invokeMethod((mehtod)getOutputProperties, TemplatesImpl)&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="410" y="240" width="420" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_2UcLu2fhHH_CYzqvIDp-70" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 200%;&quot;&gt;&lt;b style=&quot;text-align: left;&quot;&gt;java.util.PriorityQueue&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ queueArray[0]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TemplatesImpl&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ queueArray[1]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TemplatesImpl&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;comparator:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BeanComparator【比较器类】&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ readObject()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;comparator.compare(TemplatesImpl, TemplatesImpl)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="_2UcLu2fhHH_CYzqvIDp-70" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 200%;&quot;&gt;&lt;b style=&quot;text-align: left;&quot;&gt;java.util.PriorityQueue&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ queue[0]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TemplatesImpl&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ queue[1]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TemplatesImpl&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;comparator:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BeanComparator【比较器类】&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ readObject()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;comparator.compare(TemplatesImpl, TemplatesImpl)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="60" y="60" width="290" height="150" as="geometry" />
         </mxCell>
         <mxCell id="_2UcLu2fhHH_CYzqvIDp-83" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;java.lang.Runtime&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ exec(String command)&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" parent="1" vertex="1">
@@ -96,7 +96,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JVUibD3VZLxOUF3lqdkN" name="CommonsCollections1">
-    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1353" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,6 +219,129 @@
         </mxCell>
         <mxCell id="JqzEu_E1Uiq5uzM4hS0K-1" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;版本：cc4.0&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="470" width="73.25" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J0JIGHW3477rzbF78NO8" name="CommonsCollections4">
+    <mxGraphModel dx="2127" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f18QRiT4lxAJAwT4OsIw-1" value="CC4.0" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="-660" width="1010" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="2pMnRWr81JMX8_g74i6m-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 200%;&quot;&gt;&lt;b style=&quot;text-align: left;&quot;&gt;java.util.PriorityQueue&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ queue[0]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ queue[1]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;comparator:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TransformingComparator&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ readObject()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;TransformingComparator&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.compare(1, 1)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-614" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3yBy9VJ0y21L42X5UuCW-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections4.comparators.TransformingComparator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ transformer:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ChainedTransformer&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ compare(1, 1)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ ChainedTransformer.transform(1)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-410" width="433" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hCIOHE8Vgds4phN_PjR3-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.functors.ChainedTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ iTransformers[0]:&amp;nbsp;ConstantTransformer&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+&amp;nbsp;iTransformers[1]:&amp;nbsp;InstantiateTransformer&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ ChainedTransformer.transform(1)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;InstantiateTransformer.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;transform(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TrAXFilter.class&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TrAXFilter&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.newInstance(TemplatesImpl)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TemplatesImpl.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;newTransformer()&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-230" width="433" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="x5LCAd3B2k-nIo4SGdUR-1" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.functors.ConstantTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iConstant: TrAXFilter.class&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="269.25" y="-410" width="390" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc-rDoOgFdxqkjxXvCcW-1" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections4.functors.InstantiateTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iParamTypes[0]: Templates.class&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;iArgs[0]: TemplatesImpl&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="270.75" y="-300" width="388.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mjQHhW6heAPlMg4Ad8nf-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.xalan.xsltc.trax.TemplatesImpl&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ _bytecodes[0][]&lt;span style=&quot;background-color: initial;&quot;&gt;: class&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;【静态代码包含命令执行函数】&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ _bytecodes[1][]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Foo类&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ _name&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;Pwnr&quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ _tfactory&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TransformerFactoryImpl&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;类&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;_transletIndex: 0&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;_class[i]: loader.defineClass(_bytecodes[i])&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ newTransformer()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ getTransletInstance()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;defineTransletClasses():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;_class[i]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ _class[_transletIndex].newInstance()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="10" width="280" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LA2fCq_N-ZQqQu0_SlVZ-3" value="1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2pMnRWr81JMX8_g74i6m-1" target="3yBy9VJ0y21L42X5UuCW-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="30" y="-510" as="sourcePoint" />
+            <mxPoint x="190" y="-510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-190" y="-437" />
+              <mxPoint x="-270" y="-437" />
+              <mxPoint x="-270" y="-327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LA2fCq_N-ZQqQu0_SlVZ-9" value="3" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.001;entryY=0.709;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hCIOHE8Vgds4phN_PjR3-2" target="mjQHhW6heAPlMg4Ad8nf-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-190" y="-30" as="sourcePoint" />
+            <mxPoint x="-30" y="-30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-142" y="-17" />
+              <mxPoint x="-280" y="-17" />
+              <mxPoint x="-280" y="187" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="euXpcSh5XuYgqpUs2ApZ-1" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;java.lang.Runtime&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ exec(String command)&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="310" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euXpcSh5XuYgqpUs2ApZ-2" value="4" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mjQHhW6heAPlMg4Ad8nf-1" target="euXpcSh5XuYgqpUs2ApZ-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="200" y="270" as="sourcePoint" />
+            <mxPoint x="360" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSvBvz85EvCxSwhXSeKK-1" value="命令执行结束" style="label;fontStyle=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="344" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzV3kRmNCpnpKvYFpBZP-1" value="反序列化开始" style="label;fontStyle=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-510" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzV3kRmNCpnpKvYFpBZP-2" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="hCIOHE8Vgds4phN_PjR3-2" target="x5LCAd3B2k-nIo4SGdUR-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="-140" as="sourcePoint" />
+            <mxPoint x="330" y="-140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="-187" />
+              <mxPoint x="210" y="-300" />
+              <mxPoint x="230" y="-300" />
+              <mxPoint x="230" y="-460" />
+              <mxPoint x="464" y="-460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzV3kRmNCpnpKvYFpBZP-3" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="hCIOHE8Vgds4phN_PjR3-2" target="Rc-rDoOgFdxqkjxXvCcW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="-110" as="sourcePoint" />
+            <mxPoint x="390" y="-110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="227" y="-140" />
+              <mxPoint x="227" y="-330" />
+              <mxPoint x="465" y="-330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzV3kRmNCpnpKvYFpBZP-5" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=1;rounded=0;exitX=0.004;exitY=0.592;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="2pMnRWr81JMX8_g74i6m-1" target="3yBy9VJ0y21L42X5UuCW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="-484" as="sourcePoint" />
+            <mxPoint x="-370" y="-484" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-280" y="-525" />
+              <mxPoint x="-280" y="-420" />
+              <mxPoint x="-34" y="-420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzV3kRmNCpnpKvYFpBZP-6" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=1;rounded=0;exitX=0;exitY=0.398;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="3yBy9VJ0y21L42X5UuCW-1" target="hCIOHE8Vgds4phN_PjR3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="-350" as="sourcePoint" />
+            <mxPoint x="-340" y="-350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-290" y="-366" />
+              <mxPoint x="-290" y="-250" />
+              <mxPoint x="-34" y="-250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PecqfrqLQ14YTq6qTPiD-1" value="2" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yBy9VJ0y21L42X5UuCW-1" target="hCIOHE8Vgds4phN_PjR3-2">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-180" y="-270" as="sourcePoint" />
+            <mxPoint x="-20" y="-270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-142" y="-265" />
+              <mxPoint x="-280" y="-265" />
+              <mxPoint x="-280" y="-142" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
