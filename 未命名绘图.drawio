@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="8">
   <diagram name="CommonsBeanutils1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -602,7 +602,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N5JdtNRFAZQfwXJJTb3y" name="CommonsCollections8">
-    <mxGraphModel dx="1965" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2265" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -725,6 +725,122 @@
               <mxPoint x="317" y="503" />
               <mxPoint x="317" y="240" />
               <mxPoint x="80" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WxKPR0Lb9zU84niU-Qw8" name="CommonsCollections9">
+    <mxGraphModel dx="3187" dy="1781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-1" value="CC3.1" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="-210" width="1320" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-2" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.functors.ConstantTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iConstant:&amp;nbsp;Runtime.class&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-140" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-3" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.functors.InvokerTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iMethodName: &quot;getMethod&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iParamTypes[0]: String.class&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iParamTypes[1]: Class[].class&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iArgs[0]: &quot;getRuntime&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iArgs[1]: new Class[0] #空的Class数组，调用无参数的方法&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-72.5" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-4" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.functors.InvokerTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iMethodName: &quot;invoke&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iParamTypes[0]: Object.class&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iParamTypes[1]: Object[].class&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iArgs[0]: null&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iArgs[1]: new Object[0] #空的对象数组，调用无参数的方法&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="73.75" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-5" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.functors.InvokerTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iMethodName: &quot;exec&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iParamTypes[0]: Object.class&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iArgs[0]: &quot;calc.exe&quot;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="220" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-6" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.functors.ConstantTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iConstant:&amp;nbsp;1&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="330" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-7" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.map.LazyMap&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;text-align: center; border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+&amp;nbsp;LazyMap1.map = (HashMap){&quot;yy&quot;:&quot;1&quot;}&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+&amp;nbsp;LazyMap2.map =&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(HashMap)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{&quot;zZ&quot;:&quot;1&quot;}&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ factory&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ChainedTransformer&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;LazyMap1.equals(LazyMap2)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ (HashMap){&quot;yy&quot;:&quot;1&quot;}.equals(LazyMap2)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ LazyMap2.get(&quot;yy&quot;)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ChainedTransformer.transform(&quot;foo&quot;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;iTransformers[0]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ConstantTransformer.transform(&quot;foo&quot;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;class java.lang.Runtime&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;iTransformers[1]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;InvokerTransformer.transform(class java.lang.Runtime):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(method)java.lang.Runtime.getRuntime()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;iTransformers[2]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;InvokerTransformer.transform((method)java.lang.Runtime.getRuntime()):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;java.lang.Runtime类&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;iTransformers[3]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;InvokerTransformer.transform(&lt;/span&gt;java.lang.Runtime类&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;java.lang.Runtime.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;exec(&quot;calc.exe&quot;) #到这一步就实现了命令执行&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;iTransformers[4]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ConstantTransformer&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.transform(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;java.lang.ProcessImpl&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;iConstant:&amp;nbsp;1 #使结构完整&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="160" width="630" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-8" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.functors.ChainedTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ iTransformers[0]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ iTransformers[1]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ iTransformers[2]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ iTransformers[3]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ iTransformers[4]&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=1;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="-20" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-9" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;java.util.Hashtable&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;text-align: center; border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;特性:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;多个哈希值相同的键值对会存储在同一个链表中，后put的值&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;会被添加到链表的头部&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;table[1]:&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{LazyMap2, 2} #&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数组，存储哈希表中的桶&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ next:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{LazyMap1, 1}&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#产生hash冲突，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;以链表的形式存储在该桶中，next表示下一个值&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ readObject()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ reconstitutionPut({LazyMap1, 1}, LazyMap2, 2)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;LazyMap1.equals(LazyMap2)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="-140" width="430" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-10" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tp-oYbBY5hQwh2yfqyb_-8" target="tp-oYbBY5hQwh2yfqyb_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="-40" as="sourcePoint" />
+            <mxPoint x="-380" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-11" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.998;exitY=0.381;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tp-oYbBY5hQwh2yfqyb_-8" target="tp-oYbBY5hQwh2yfqyb_-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="-60" as="sourcePoint" />
+            <mxPoint x="-280" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-12" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tp-oYbBY5hQwh2yfqyb_-8" target="tp-oYbBY5hQwh2yfqyb_-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-240" y="-40" as="sourcePoint" />
+            <mxPoint x="-320" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-13" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tp-oYbBY5hQwh2yfqyb_-8" target="tp-oYbBY5hQwh2yfqyb_-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-240" y="-30" as="sourcePoint" />
+            <mxPoint x="-320" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-14" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.998;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tp-oYbBY5hQwh2yfqyb_-8" target="tp-oYbBY5hQwh2yfqyb_-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="280" as="sourcePoint" />
+            <mxPoint x="-230" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-15" value="命令执行结束" style="label;fontStyle=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="420" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-16" value="反序列化开始" style="label;fontStyle=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="-40" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-17" value="1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.002;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tp-oYbBY5hQwh2yfqyb_-9" target="tp-oYbBY5hQwh2yfqyb_-7">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-930" y="90" as="sourcePoint" />
+            <mxPoint x="-770" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-873" y="95" />
+              <mxPoint x="-1010" y="95" />
+              <mxPoint x="-1010" y="280" />
+              <mxPoint x="-979" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-18" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=-0.001;exitY=0.364;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.209;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tp-oYbBY5hQwh2yfqyb_-9" target="tp-oYbBY5hQwh2yfqyb_-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-720" y="90" as="sourcePoint" />
+            <mxPoint x="-800" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1020" y="-78" />
+              <mxPoint x="-1020" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-19" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tp-oYbBY5hQwh2yfqyb_-9" target="tp-oYbBY5hQwh2yfqyb_-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-700" y="90" as="sourcePoint" />
+            <mxPoint x="-780" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1000" y="-55" />
+              <mxPoint x="-1000" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tp-oYbBY5hQwh2yfqyb_-20" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tp-oYbBY5hQwh2yfqyb_-7" target="tp-oYbBY5hQwh2yfqyb_-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-630" y="90" as="sourcePoint" />
+            <mxPoint x="-710" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-990" y="237" />
+              <mxPoint x="-990" y="70" />
+              <mxPoint x="-520" y="70" />
+              <mxPoint x="-520" y="-80" />
+              <mxPoint x="-325" y="-80" />
             </Array>
           </mxGeometry>
         </mxCell>
