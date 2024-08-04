@@ -217,7 +217,7 @@
             <mxPoint x="590" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jzjYLaKF6G9ByjqJE18z-1" value="原理：通过反射调用TemplatesImpl类newTransformer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jzjYLaKF6G9ByjqJE18z-1" value="原理：&lt;div&gt;通过反射调用TemplatesImpl类newTransformer&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="490" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
