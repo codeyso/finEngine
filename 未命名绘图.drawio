@@ -724,7 +724,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N5JdtNRFAZQfwXJJTb3y" name="CommonsCollections8">
-    <mxGraphModel dx="2180" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1898" dy="1709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -851,6 +851,9 @@
               <mxPoint x="630" y="195" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Cg-tq_MwWZG-H_wnE_Oy-2" value="&lt;p style=&quot;line-height: 130%;&quot;&gt;TreeBag 是一种集合数据结构，通常基于树来存储元素及其出现次数。&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="10" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
