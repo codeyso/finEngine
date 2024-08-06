@@ -1089,7 +1089,7 @@
           <mxGeometry x="-1470" y="-360" width="2520" height="1690" as="geometry" />
         </mxCell>
         <mxCell id="pnC3bMA0DfjCk5B6SGHL-3" value="&lt;span style=&quot;font-family: Verdana; font-size: 10px;&quot;&gt;恶意LDAP服务端&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="-150" width="110" height="50" as="geometry" />
+          <mxGeometry x="-149.98000000000002" y="-140" width="124.99" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6TWhQOKHOOIO9jk7yogo-2" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-857" y="-240" width="30" height="60" as="geometry" />
@@ -1438,6 +1438,18 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-505" y="595" as="sourcePoint" />
             <mxPoint x="-505" y="628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-78" value="查询" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TWhQOKHOOIO9jk7yogo-3" target="pnC3bMA0DfjCk5B6SGHL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="-210" as="sourcePoint" />
+            <mxPoint x="-260" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-79" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnC3bMA0DfjCk5B6SGHL-3" target="U3sp_GcbYMRyqxipxhd9-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" as="sourcePoint" />
+            <mxPoint x="-270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
