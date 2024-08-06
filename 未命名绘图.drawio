@@ -1398,7 +1398,7 @@
             <mxPoint x="-739" y="855" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9lJIgOVYeG089vIEutys-65" value="&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left;&quot;&gt;factory.getObjectInstance()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lJIgOVYeG089vIEutys-65" value="&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left;&quot;&gt;factory.getObjectInstance()&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left;&quot;&gt;通过第三方组件工厂类的&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left; background-color: initial;&quot;&gt;getObjectInstance触发命令执行&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-758.75" y="820" width="168.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9lJIgOVYeG089vIEutys-67" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-65" target="9lJIgOVYeG089vIEutys-63">
