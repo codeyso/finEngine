@@ -1089,7 +1089,7 @@
           <mxGeometry x="-1530" y="-420" width="2480" height="1730" as="geometry" />
         </mxCell>
         <mxCell id="pnC3bMA0DfjCk5B6SGHL-3" value="&lt;span style=&quot;font-family: Verdana; font-size: 10px;&quot;&gt;恶意LDAP服务端&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-160" width="110" height="50" as="geometry" />
+          <mxGeometry x="-110" y="-110" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6TWhQOKHOOIO9jk7yogo-2" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-857" y="-240" width="30" height="60" as="geometry" />
