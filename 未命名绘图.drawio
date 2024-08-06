@@ -1409,6 +1409,21 @@
             <mxPoint x="-749" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-68" value="&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left;&quot;&gt;clas.newInstance()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-758.75" y="1020" width="168.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-69" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-50" target="9lJIgOVYeG089vIEutys-68">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-664" y="890" as="sourcePoint" />
+            <mxPoint x="-664" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-70" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-68" target="9lJIgOVYeG089vIEutys-63">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-664" y="890" as="sourcePoint" />
+            <mxPoint x="-664" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
