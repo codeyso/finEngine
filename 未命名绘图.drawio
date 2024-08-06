@@ -1081,7 +1081,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FrwGkGFJlJo_fqI_ToMJ" name="JNDI注入">
-    <mxGraphModel dx="2564" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3309" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1176,15 +1176,6 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="560" y="490" as="sourcePoint" />
             <mxPoint x="560" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9lJIgOVYeG089vIEutys-1" value="抛出InvalidAttributesException异常" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="696.24" y="667.5" width="210" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="9lJIgOVYeG089vIEutys-2" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U3sp_GcbYMRyqxipxhd9-39" target="9lJIgOVYeG089vIEutys-1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="928.12" y="782" as="targetPoint" />
-            <mxPoint x="928.12" y="680" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9lJIgOVYeG089vIEutys-3" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="U3sp_GcbYMRyqxipxhd9-39" target="9lJIgOVYeG089vIEutys-4">
@@ -1283,7 +1274,7 @@
           <mxGeometry x="-454.99999999999994" y="1052.5" width="121.24" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9lJIgOVYeG089vIEutys-37" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;返回&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;null对象&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="209.38" y="607.5" width="121.24" height="55" as="geometry" />
+          <mxGeometry x="209.38" y="600" width="121.24" height="55" as="geometry" />
         </mxCell>
         <mxCell id="9lJIgOVYeG089vIEutys-39" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;com.sun.jndi.ldap.Obj&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+&amp;nbsp;var1: Reference引用对象&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+&amp;nbsp;var2: CompositeName:&quot;Basic/Command/calc&quot;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+&amp;nbsp;var3: Attributes属性对象&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// 获取对象实例&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;DirectoryManager.getObjectInstance(var1, var2, this, this.envprops, (Attributes)var3);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1273" y="330" width="445.62" height="140" as="geometry" />
@@ -1450,6 +1441,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-190" as="sourcePoint" />
             <mxPoint x="-270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-80" value="抛出InvalidAttributesException异常" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="120.62" y="667.5" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-81" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U3sp_GcbYMRyqxipxhd9-39" target="9lJIgOVYeG089vIEutys-80">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="706" y="710" as="targetPoint" />
+            <mxPoint x="646" y="710" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
