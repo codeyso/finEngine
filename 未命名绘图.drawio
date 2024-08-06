@@ -1105,7 +1105,7 @@
             <mxPoint x="-402.5" y="315" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U3sp_GcbYMRyqxipxhd9-14" value="查询" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TWhQOKHOOIO9jk7yogo-3" target="U3sp_GcbYMRyqxipxhd9-9">
+        <mxCell id="U3sp_GcbYMRyqxipxhd9-14" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6TWhQOKHOOIO9jk7yogo-3" target="U3sp_GcbYMRyqxipxhd9-9">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-370" y="185" as="sourcePoint" />
             <mxPoint x="-290" y="185" as="targetPoint" />
