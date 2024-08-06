@@ -1081,7 +1081,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FrwGkGFJlJo_fqI_ToMJ" name="JNDI注入">
-    <mxGraphModel dx="2612" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2792" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1371,13 +1371,10 @@
         <mxCell id="9lJIgOVYeG089vIEutys-57" value="待定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1273" y="560" width="97.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9lJIgOVYeG089vIEutys-58" value="命令执行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-581.25" y="620" width="133.75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="9lJIgOVYeG089vIEutys-59" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-23" target="9lJIgOVYeG089vIEutys-58">
+        <mxCell id="9lJIgOVYeG089vIEutys-59" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-23" target="9lJIgOVYeG089vIEutys-74">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-397.19" y="575" as="sourcePoint" />
-            <mxPoint x="-397.19" y="620" as="targetPoint" />
+            <mxPoint x="-514.375" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9lJIgOVYeG089vIEutys-60" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-25" target="9lJIgOVYeG089vIEutys-28">
@@ -1425,13 +1422,22 @@
             <mxPoint x="-664" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9lJIgOVYeG089vIEutys-71" value="返回ResourceRef对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-772.5" y="525" width="133.75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="9lJIgOVYeG089vIEutys-72" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-23" target="9lJIgOVYeG089vIEutys-71">
+        <mxCell id="9lJIgOVYeG089vIEutys-72" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-23" target="9lJIgOVYeG089vIEutys-73">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-505" y="595" as="sourcePoint" />
-            <mxPoint x="-504" y="630" as="targetPoint" />
+            <mxPoint x="-638.75" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-73" value="命令执行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-741.25" y="525" width="133.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-74" value="返回ResourceRef对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-581.88" y="617.5" width="133.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-76" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-74" target="9lJIgOVYeG089vIEutys-28">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-505" y="595" as="sourcePoint" />
+            <mxPoint x="-505" y="628" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
