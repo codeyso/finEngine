@@ -1257,7 +1257,7 @@
             <mxPoint x="21" y="1105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9lJIgOVYeG089vIEutys-23" value="返回反序列化数据对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lJIgOVYeG089vIEutys-23" value="反序列化数据对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-581.88" y="515" width="133.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9lJIgOVYeG089vIEutys-25" value="返回&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left;&quot;&gt;Reference引用对象&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
