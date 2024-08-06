@@ -1081,7 +1081,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FrwGkGFJlJo_fqI_ToMJ" name="JNDI注入">
-    <mxGraphModel dx="4210" dy="2189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2865" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1384,6 +1384,15 @@
               <mxPoint x="-515" y="-270" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-56" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-45" target="9lJIgOVYeG089vIEutys-57">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-1250" y="620" as="targetPoint" />
+            <mxPoint x="-1249" y="580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-57" value="待定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1273" y="560" width="97.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
