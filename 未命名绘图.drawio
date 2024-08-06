@@ -1341,10 +1341,10 @@
         <mxCell id="9lJIgOVYeG089vIEutys-45" value="如果是&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left;&quot;&gt;Reference引用&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="-1154.04" y="540" width="207.69" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9lJIgOVYeG089vIEutys-46" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-39" target="9lJIgOVYeG089vIEutys-45">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-990" y="495" as="sourcePoint" />
-            <mxPoint x="-990" y="540" as="targetPoint" />
+        <mxCell id="9lJIgOVYeG089vIEutys-47" value="函数内部" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-39" target="9lJIgOVYeG089vIEutys-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1000" y="480" as="sourcePoint" />
+            <mxPoint x="-1000" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
