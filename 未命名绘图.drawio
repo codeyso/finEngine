@@ -1081,12 +1081,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FrwGkGFJlJo_fqI_ToMJ" name="JNDI注入">
-    <mxGraphModel dx="2127" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1585" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DnFwgF4g3L7m6Lfbmd5l-1" value="JNDI注入" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
           <mxGeometry x="-660" width="1160" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="pnC3bMA0DfjCk5B6SGHL-3" value="&lt;span style=&quot;font-family: Verdana; font-size: 10px;&quot;&gt;恶意LDAP服务端&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6TWhQOKHOOIO9jk7yogo-1" value="&lt;p style=&quot;margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;com.unboundid.ldap.sdk.Entry&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;e.addAttribute(&quot;javaClassName&quot;, &quot;foo&quot;);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;e.addAttribute(&quot;javaCodeBase&quot;, this.codebase);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;e.addAttribute(&quot;objectClass&quot;, &quot;javaNamingReference&quot;);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;e.addAttribute(&quot;javaFactory&quot;, className);&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="190" width="300" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
