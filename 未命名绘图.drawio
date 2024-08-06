@@ -1081,12 +1081,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FrwGkGFJlJo_fqI_ToMJ" name="JNDI注入">
-    <mxGraphModel dx="2344" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2475" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DnFwgF4g3L7m6Lfbmd5l-1" value="JNDI注入" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-800" y="-300" width="1290" height="960" as="geometry" />
+          <mxGeometry x="-920" y="-410" width="1870" height="1560" as="geometry" />
         </mxCell>
         <mxCell id="pnC3bMA0DfjCk5B6SGHL-3" value="&lt;span style=&quot;font-family: Verdana; font-size: 10px;&quot;&gt;恶意LDAP服务端&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-160" width="110" height="50" as="geometry" />
@@ -1118,7 +1118,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U3sp_GcbYMRyqxipxhd9-15" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;com.sun.jndi.ldap.LdapResult&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ map:&amp;nbsp;LazyMap&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ key:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TemplatesImpl&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="270" y="80" width="180" height="80" as="geometry" />
+          <mxGeometry x="-200" y="-110" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="U3sp_GcbYMRyqxipxhd9-18" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;com.sun.jndi.ldap.Obj&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;//&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;解码二进制数据&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;var3 = Obj.decodeObject((Attributes)var4);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-638.75" y="60" width="247.5" height="80" as="geometry" />
@@ -1159,11 +1159,65 @@
             <mxPoint x="100" y="269.29" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U3sp_GcbYMRyqxipxhd9-31" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;com.sun.jndi.ldap.Obj&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;// 还原对象&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;return decodeRmiObject((&quot;javaClassName&quot;).get(), (&quot;javaRemoteLocation&quot;).get(), [&quot;javaCodeBase&quot;]);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-435.62" y="390" width="546.25" height="80" as="geometry" />
+        <mxCell id="U3sp_GcbYMRyqxipxhd9-31" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;com.sun.jndi.ldap.Obj&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ var1:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;javaClassName属性值&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ var2:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;javaRemoteLocation属性值&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ var3:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;javaCodeBase属性值&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;// 还原对象&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;return decodeRmiObject(var1, var2, var3);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-280.3" y="390" width="235.62" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="U3sp_GcbYMRyqxipxhd9-34" value="LdapResult的attributes属性集合是否包含&lt;div style=&quot;line-height: 150%;&quot;&gt;javaRemoteLocation属性ID&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="210" width="275" height="120" as="geometry" />
+        <mxCell id="U3sp_GcbYMRyqxipxhd9-34" value="如果LdapResult的attributes属性集合不包含&lt;div style=&quot;line-height: 150%;&quot;&gt;objectClass属性ID&lt;br&gt;或&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;objectClass的属性值&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;不包含javaNamingReference和javanamingreference&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="132.5" width="420" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="U3sp_GcbYMRyqxipxhd9-35" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="U3sp_GcbYMRyqxipxhd9-34" target="U3sp_GcbYMRyqxipxhd9-36">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-152" y="400" as="targetPoint" />
+            <mxPoint x="-152" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3sp_GcbYMRyqxipxhd9-36" value="返回null对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3sp_GcbYMRyqxipxhd9-37" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U3sp_GcbYMRyqxipxhd9-34" target="U3sp_GcbYMRyqxipxhd9-38">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="70" y="280" as="targetPoint" />
+            <mxPoint x="-15" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3sp_GcbYMRyqxipxhd9-38" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;com.sun.jndi.ldap.Obj&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;// 通过Reference引用还原对象&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;(Reference)decodeReference(Attributes, [&quot;javaCodeBase&quot;])&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="99.22" y="510" width="341.56" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="U3sp_GcbYMRyqxipxhd9-39" value="LdapResult的attributes属性集合是否包含&lt;div style=&quot;line-height: 150%;&quot;&gt;javaClassName属性ID&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="650" width="275" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U3sp_GcbYMRyqxipxhd9-40" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U3sp_GcbYMRyqxipxhd9-38" target="U3sp_GcbYMRyqxipxhd9-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="490" as="sourcePoint" />
+            <mxPoint x="560" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-1" value="抛出InvalidAttributesException异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="677.5" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-2" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U3sp_GcbYMRyqxipxhd9-39" target="9lJIgOVYeG089vIEutys-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="490" y="792" as="targetPoint" />
+            <mxPoint x="490" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-3" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="U3sp_GcbYMRyqxipxhd9-39" target="9lJIgOVYeG089vIEutys-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="370" y="840" as="targetPoint" />
+            <mxPoint x="300" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-4" value="LdapResult的attributes属性集合是否包含&lt;div style=&quot;line-height: 150%;&quot;&gt;javaFactory属性ID&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="840" width="275" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-4" target="9lJIgOVYeG089vIEutys-10">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="60.000000000000455" y="871.25" as="targetPoint" />
+            <mxPoint x="280" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-10" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;com.sun.jndi.ldap.Obj&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+&amp;nbsp;var1: javaClassName属性值&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ var2: javaFactory属性值&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ var3:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;javaCodeBase属性值&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;// 生成对象引用&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;Reference var4 = new Reference(var1, var2, var3 != null ? var3[0] : null);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-336.25" y="830" width="396.25" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
