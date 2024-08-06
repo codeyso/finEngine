@@ -1081,7 +1081,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FrwGkGFJlJo_fqI_ToMJ" name="JNDI注入">
-    <mxGraphModel dx="3092" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3423" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1387,6 +1387,9 @@
         </mxCell>
         <mxCell id="9lJIgOVYeG089vIEutys-57" value="待定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1273" y="560" width="97.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9lJIgOVYeG089vIEutys-58" value="反序列化数据对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-581.25" y="610" width="133.75" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
