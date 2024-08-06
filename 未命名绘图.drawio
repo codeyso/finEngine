@@ -1389,7 +1389,7 @@
           <mxGeometry x="-1273" y="560" width="97.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9lJIgOVYeG089vIEutys-58" value="命令执行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-581.25" y="610" width="133.75" height="70" as="geometry" />
+          <mxGeometry x="-581.25" y="610" width="133.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9lJIgOVYeG089vIEutys-59" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lJIgOVYeG089vIEutys-23" target="9lJIgOVYeG089vIEutys-58">
           <mxGeometry width="80" relative="1" as="geometry">
