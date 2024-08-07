@@ -435,12 +435,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Oi3L5p-qfi-X38_j1RML" name="CC6(HashSet)">
-    <mxGraphModel dx="3007" dy="1709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3297" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SdvnfJ2JdptgcAqZd3e4-1" value="CC3.1" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-1030" y="-210" width="1320" height="890" as="geometry" />
+          <mxGeometry x="-1030" y="-210" width="1320" height="800" as="geometry" />
         </mxCell>
         <mxCell id="SdvnfJ2JdptgcAqZd3e4-2" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;org.apache.commons.collections.functors.ConstantTransformer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;div style=&quot;height: 2px; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+ iConstant:&amp;nbsp;Runtime.class&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="-100" y="-140" width="370" height="60" as="geometry" />
