@@ -1127,6 +1127,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="B8iT7uNmLD1sxVAxBRGr-1" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;反序列化是从顶级类开始的。Java 序列化机制会按类的继承层次，从最顶层类开始逐层反序列化每个类的数据，并调用每个类的 readObject 方法（如果存在）。这确保了对象的所有类的数据都能被正确恢复。&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="440" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
