@@ -1509,12 +1509,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jzPotVwdB2cgOEGwncY0" name="反序列化">
-    <mxGraphModel dx="2596" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2470" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bxls_OGI0bXfBVINf-0v-1" value="readObject" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;width=80;height=30;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="-10" width="1480" height="1380" as="geometry" />
+          <mxGeometry x="-690" y="-10" width="1640" height="1380" as="geometry" />
         </mxCell>
         <mxCell id="bxls_OGI0bXfBVINf-0v-2" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;java.io.ObjectInputStream&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;readObject0 方法是一个关键的内部方法，用于处理对象的具体反序列化工作。它负责读取对象的类描述符、实例数据，并处理各种类型的对象，包括普通对象、数组和特殊对象。&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;# 调用反序列化函数&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;readObject()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;底层 readObject 实现&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;readObject0()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;# 读取并返回&quot;普通&quot;对象&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;+&amp;nbsp;java.io.ObjectInputStream.readOrdinaryObject()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="-550" y="20" width="360" height="235" as="geometry" />
@@ -1556,24 +1556,24 @@
         <mxCell id="o-pfwrjfN3RjGLOkoXsw-1" value="类描述符是否自定义readObject函数" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="40" y="840" width="275" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aZHIYaHmmUCzArjXEZtR-1" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="o-pfwrjfN3RjGLOkoXsw-1" target="L5qpPWc-mQYSDlSp6326-1" edge="1">
+        <mxCell id="aZHIYaHmmUCzArjXEZtR-1" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="o-pfwrjfN3RjGLOkoXsw-1" target="L5qpPWc-mQYSDlSp6326-1" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="280" y="679.76" as="targetPoint" />
             <mxPoint x="339" y="729.76" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-9Vi-sO6p3UoXVgY5QyW-1" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="o-pfwrjfN3RjGLOkoXsw-1" target="L5qpPWc-mQYSDlSp6326-2" edge="1">
+        <mxCell id="-9Vi-sO6p3UoXVgY5QyW-1" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o-pfwrjfN3RjGLOkoXsw-1" target="L5qpPWc-mQYSDlSp6326-2" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="-50" y="900" as="targetPoint" />
             <mxPoint x="-49" y="880" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="L5qpPWc-mQYSDlSp6326-1" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;java.io.ObjectInputStream&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// 调用默认的反序列化函数&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;defaultReadFields(obj, slotDesc);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="380" y="860" width="235.62" height="80" as="geometry" />
+          <mxGeometry x="59.84" y="1020" width="235.31" height="80" as="geometry" />
         </mxCell>
         <mxCell id="L5qpPWc-mQYSDlSp6326-2" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;java.io.&lt;/b&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;ObjectStreamClass&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;调用所表示可序列化类的 readObject 方法&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;slotDesc.invokeReadObject(obj, this);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;# 通过反射调用&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;readObjectMethod.invoke(obj, new Object[]{ in });&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;# 调用实际对象的反序列化函数&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ obj.&lt;span style=&quot;background-color: initial;&quot;&gt;readObject()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 200%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-16.25" y="1000" width="387.5" height="190" as="geometry" />
+          <mxGeometry x="400" y="805" width="290" height="190" as="geometry" />
         </mxCell>
         <mxCell id="L5qpPWc-mQYSDlSp6326-5" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; line-height: 200%;&quot;&gt;&lt;b&gt;java.io.ObjectInputStream&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 200%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+&amp;nbsp;readSerialData(obj, desc);&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;+ ObjectStreamClass.ClassDataSlot[] slots = desc.getClassDataLayout();&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;for (int i = 0; i &amp;lt; slots.length; i++) {&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;ObjectStreamClass slotDesc = slots[i].desc;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;if slotDesc.hasReadObjectMethod()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 20px;&quot;&gt;}&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=0;shadow=0;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=10;fontColor=default;labelBackgroundColor=none;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="-30" y="600" width="390" height="190" as="geometry" />
@@ -1597,27 +1597,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-1" value="赋值obj对象" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="880" width="97.5" height="40" as="geometry" />
+          <mxGeometry x="760" y="880" width="97.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-3" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="L5qpPWc-mQYSDlSp6326-1" target="nDPMVC-Mi2rmMSNHWZoJ-1" edge="1">
+        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-3" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="L5qpPWc-mQYSDlSp6326-1" target="nDPMVC-Mi2rmMSNHWZoJ-1" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="500" y="740" as="sourcePoint" />
             <mxPoint x="660" y="740" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-7" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="L5qpPWc-mQYSDlSp6326-2" target="nDPMVC-Mi2rmMSNHWZoJ-1" edge="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="510" y="1020" as="sourcePoint" />
-            <mxPoint x="670" y="1020" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="177" y="1220" />
-              <mxPoint x="719" y="1220" />
+              <mxPoint x="177" y="1200" />
+              <mxPoint x="809" y="1200" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-13" value="实现自定义反序列化过程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nDPMVC-Mi2rmMSNHWZoJ-7" vertex="1" connectable="0">
-          <mxGeometry x="-0.2325" y="-2" relative="1" as="geometry">
-            <mxPoint x="16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-11" value="进入下一次循环" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="nDPMVC-Mi2rmMSNHWZoJ-1" target="L5qpPWc-mQYSDlSp6326-5" edge="1">
@@ -1626,13 +1615,11 @@
             <mxPoint x="550" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-12" value="使用默认&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;defaultReadFields函数&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="L5qpPWc-mQYSDlSp6326-2" target="L5qpPWc-mQYSDlSp6326-1" edge="1">
+        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-12" value="使用默认&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;defaultReadFields函数&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="L5qpPWc-mQYSDlSp6326-2" target="L5qpPWc-mQYSDlSp6326-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="1120" as="sourcePoint" />
             <mxPoint x="480" y="1120" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="498" y="1190" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-14" value="返回反序列化后的对象" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1675,6 +1662,12 @@
             <Array as="points">
               <mxPoint x="380" y="480" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsTauRkRag-XBAX8JyCO-3" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L5qpPWc-mQYSDlSp6326-2" target="nDPMVC-Mi2rmMSNHWZoJ-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="1060" as="sourcePoint" />
+            <mxPoint x="430" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
