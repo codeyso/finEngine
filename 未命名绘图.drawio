@@ -1509,7 +1509,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jzPotVwdB2cgOEGwncY0" name="反序列化">
-    <mxGraphModel dx="2470" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3702" dy="2317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1633,6 +1633,15 @@
             <Array as="points">
               <mxPoint x="498" y="1190" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-14" value="返回反序列化后的对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-419.38" y="920" width="138.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-15" value="3" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cO-YPO8XIHa64D0RudnD-1" target="nDPMVC-Mi2rmMSNHWZoJ-14">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-250" y="870" as="sourcePoint" />
+            <mxPoint x="-90" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
