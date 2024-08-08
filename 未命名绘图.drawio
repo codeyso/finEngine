@@ -1596,7 +1596,7 @@
             <mxPoint y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-1" value="完善对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-1" value="完善obj对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="880" width="97.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-3" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L5qpPWc-mQYSDlSp6326-1" target="nDPMVC-Mi2rmMSNHWZoJ-1">
