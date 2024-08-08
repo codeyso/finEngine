@@ -1615,6 +1615,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-13" value="实现自定义反序列化过程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nDPMVC-Mi2rmMSNHWZoJ-7">
+          <mxGeometry x="-0.2325" y="-2" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-11" value="进入下一次循环" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="nDPMVC-Mi2rmMSNHWZoJ-1" target="L5qpPWc-mQYSDlSp6326-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="780" as="sourcePoint" />
