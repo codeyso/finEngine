@@ -1621,6 +1621,15 @@
             <mxPoint x="550" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="nDPMVC-Mi2rmMSNHWZoJ-12" value="使用默认&lt;span style=&quot;font-family: Verdana; font-size: 10px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;defaultReadFields函数&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="L5qpPWc-mQYSDlSp6326-2" target="L5qpPWc-mQYSDlSp6326-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="1120" as="sourcePoint" />
+            <mxPoint x="480" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="498" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
